@@ -52,7 +52,6 @@ nav {
     background-color: rgba(85, 107, 47, 0.71);
     border: 1px solid rgb(52, 52, 52); 
  
- 
 }
 
 
@@ -72,11 +71,47 @@ a:hover {
 .MenuContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     background-color: lightslategray;
+    max-width: 100%;
     /* margin: 0px;
     padding: 0px; */
     flex-wrap: wrap;
-    
 
+}
+
+.PizzaBox {
+    display: flex;
+    flex: 1 1 400px;
+    max-width: 425px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: aqua;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border: 2px solid brown; */
+}
+
+
+img {
+    max-width: 400px;
+}
+
+
+
+.orderformcontainer {
+    display: flex;
+    flex-direction: column;
 }
