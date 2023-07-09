@@ -1,0 +1,82 @@
+/* Author: Matthew Jared */
+/*  Class: CIS-130       */
+/*   Date: 06/07/2023    */
+
+
+  * {
+    margin: 0px;
+    padding: 0px;
+ } 
+
+ img {
+    float: right;
+ }
+
+.NavContainer {
+    height: 200px;
+    background-image: url("/images/navbackground.avif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Title {
+    position: relative; left: 100px; top: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 42px;
+}
+
+.SubTitle {
+    position: relative; left: 140px; top: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    border-top: 1px solid rgb(52, 52, 52);
+    border-bottom: 1px solid rgb(52, 52, 52);
+
+}
+
+.NavFlex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(85, 107, 47, 0.71);
+    border: 1px solid rgb(52, 52, 52); 
+ 
+ 
+}
+
+
+a {
+    font-size: 32px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    background-color: rgba(41, 41, 41, 0.331);
+
+}
+
+
+.MenuContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightslategray;
+    /* margin: 0px;
+    padding: 0px; */
+    flex-wrap: wrap;
+    
+
+}
